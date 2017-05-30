@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Modules"
+                   displayName="Modules"
+                   projectFiles="true"
+                   root="/usr/share/cmake-3.5/Modules">
+      <itemPath>/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c</itemPath>
+      <itemPath>/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp</itemPath>
+      <itemPath>/usr/share/cmake-3.5/Modules/CMakeCompilerABI.h</itemPath>
+    </logicalFolder>
+    <df root="." name="0">
+      <df name="CMakeFiles">
+        <df name="3.5.1">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <in>feature_tests.c</in>
+        <in>feature_tests.cxx</in>
+      </df>
+      <df name="src">
+        <df name="bp-vision">
+          <in>depth.cpp</in>
+          <in>noise.cpp</in>
+          <in>restore.cpp</in>
+          <in>stereo.cpp</in>
+        </df>
+        <df name="eff_mlabel_ver1">
+          <in>image.cpp</in>
+          <in>main.cpp</in>
+        </df>
+        <df name="MRF2.2">
+          <in>BP-S.cpp</in>
+          <in>GCoptimization.cpp</in>
+          <in>ICM.cpp</in>
+          <in>LinkedBlockList.cpp</in>
+          <in>MaxProdBP.cpp</in>
+          <in>TRW-S.cpp</in>
+          <in>example.cpp</in>
+          <in>graph.cpp</in>
+          <in>maxflow.cpp</in>
+          <in>mrf.cpp</in>
+          <in>regions-maxprod.cpp</in>
+        </df>
+        <df name="TRW_S-v1.3">
+          <in>MRFEnergy.cpp</in>
+          <in>example.cpp</in>
+          <in>minimize.cpp</in>
+          <in>ordering.cpp</in>
+          <in>treeProbabilities.cpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3"/>
+        <element flagsID="1" commonFlags="-std=c++14"/>
+        <element flagsID="2" commonFlags="-std=c11"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/bin/example-eff-mlabel</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="10">
+        <cTool flags="2">
+          <incDir>
+            <pElem>CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="11">
+        <ccTool flags="1">
+          <incDir>
+            <pElem>CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <folder path="0/src/MRF2.2">
+        <ccTool>
+          <incDir>
+            <pElem>src/MRF2.2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>USE_64_BIT_PTR_CAST</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/TRW_S-v1.3">
+        <ccTool>
+          <incDir>
+            <pElem>src/TRW_S-v1.3</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/bp-vision">
+        <ccTool>
+          <incDir>
+            <pElem>src/bp-vision</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/eff_mlabel_ver1">
+        <ccTool>
+          <incDir>
+            <pElem>src/eff_mlabel_ver1</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Modules">
+        <cTool>
+          <incDir>
+            <pElem>CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/MRF2.2/BP-S.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/GCoptimization.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/ICM.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/LinkedBlockList.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/MaxProdBP.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/TRW-S.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/example.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/graph.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/maxflow.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/mrf.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/regions-maxprod.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/TRW_S-v1.3/MRFEnergy.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/TRW_S-v1.3/example.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/TRW_S-v1.3/-o</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/TRW_S-v1.3/minimize.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/TRW_S-v1.3/ordering.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/TRW_S-v1.3/treeProbabilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/depth.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/noise.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/restore.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/stereo.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/eff_mlabel_ver1/image.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/eff_mlabel_ver1/main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+    </conf>
+    <conf name="example-mrf" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE}</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>build/bin/example-mrf</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="4">
+      </item>
+      <folder path="0/src/MRF2.2">
+        <ccTool>
+          <incDir>
+            <pElem>src/MRF2.2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>USE_64_BIT_PTR_CAST</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/bp-vision">
+        <ccTool>
+          <incDir>
+            <pElem>src/bp-vision</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/eff_mlabel_ver1">
+        <ccTool>
+          <incDir>
+            <pElem>src/eff_mlabel_ver1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="src/MRF2.2/BP-S.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/GCoptimization.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/ICM.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/LinkedBlockList.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/MaxProdBP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/TRW-S.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/example.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/graph.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/maxflow.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/mrf.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/MRF2.2/regions-maxprod.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/MRFEnergy.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/example.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/minimize.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/ordering.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/treeProbabilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/bp-vision/noise.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/restore.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/stereo.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/eff_mlabel_ver1/image.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/eff_mlabel_ver1/main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="depth-bbp" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-mtune=generic -march=x86-64 -O3 -fstack-protector-strong"/>
+        <element flagsID="1"
+                 commonFlags="-mtune=generic -march=x86-64 -fstack-protector-strong"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE}</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>build/bin/depth</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="4">
+      </item>
+      <folder path="0/src/MRF2.2">
+        <ccTool>
+          <incDir>
+            <pElem>src/MRF2.2</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/bp-vision">
+        <ccTool>
+          <incDir>
+            <pElem>src/bp-vision</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/eff_mlabel_ver1">
+        <ccTool>
+          <incDir>
+            <pElem>src/eff_mlabel_ver1</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/MRF2.2/BP-S.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/GCoptimization.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/ICM.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/LinkedBlockList.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/MaxProdBP.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/TRW-S.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/example.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/graph.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/maxflow.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/mrf.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/MRF2.2/regions-maxprod.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/TRW_S-v1.3/MRFEnergy.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/example.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/minimize.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/ordering.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/TRW_S-v1.3/treeProbabilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/bp-vision/depth.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+          <incDir>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost/core</pElem>
+            <pElem>/usr/include/boost</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/noise.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/restore.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/bp-vision/stereo.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/eff_mlabel_ver1/image.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/eff_mlabel_ver1/main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
